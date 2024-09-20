@@ -1,8 +1,9 @@
 function imprimirNumero(vecesRepite,numero){
 let resultado= numero;
 for (let index = 0; index < vecesRepite; index++) {
-return resultado ;
-resultado += numero*2
+    resultado += numero*2;
+    return resultado ;
+
 }
 }
-console.log(imprimirNumero(4,6))
+console.log(imprimirNumero(4,6));
